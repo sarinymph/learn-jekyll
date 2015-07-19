@@ -1,0 +1,36 @@
+# Site settings
+title: Sari's Blog
+email: hello@sarinymph.com
+description: A blog about my favorite web conferences.
+url: "http://sarinymph.com" # the base hostname & protocol for your site
+twitter_username: sari_nymphea
+paginate: 3
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:title
+
+# Default Variables
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      author: Sari Sudharsana
+      layout: "post"
+      category: iseng
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "drafts"
+    values:
+      author: Sari Sudharsana
+      layout: "post"
+      category: iseng
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: "page"

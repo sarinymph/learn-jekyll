@@ -2,6 +2,7 @@
 title: Sari's Blog
 email: hello@sarinymph.com
 description: A blog about my favorite web conferences.
+baseurl: '/learn-jekyll'
 url: "http://sarinymph.com" # the base hostname & protocol for your site
 twitter_username: sari_nymphea
 paginate: 3
